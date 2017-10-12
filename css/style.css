@@ -30,3 +30,26 @@ video {
 .white-text {
   color: white;
 }
+.screen {
+  top: -374px;
+  height: 374px;
+  width:  374px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.galeria {
+  overflow: hidden;
+}
+.galeria:hover .screen{
+  top: 0%;
+}
+.bg-2 {
+  background-image: url('../img/backgrounds/bg-black.jpg');
+}
+.center {
+  text-align: center;
+}
+h2.title {
+  font-family: 'Poiret One', cursive!important;
+  font-size: 3em!important;
+}
